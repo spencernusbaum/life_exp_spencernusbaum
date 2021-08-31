@@ -1,0 +1,32 @@
+---
+title: "life_exp_analysis.Rmd"
+author: "Spencer Nusbaum"
+date: "8/30/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Abstract
+
+  Here, I re-examine the analysis of Oeppen and Vaupel (2002).
+
+# Analysis
+
+
+
+```{r}
+library(tidyverse)
+
+```
+
+```{r}
+library(gapminder)
+gapminder_unfiltered
+```
+
+
+
