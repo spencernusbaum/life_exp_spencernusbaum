@@ -2,7 +2,9 @@
 title: "life_exp_analysis.Rmd"
 author: "Spencer Nusbaum"
 date: "8/30/2021"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
